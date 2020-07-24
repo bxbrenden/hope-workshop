@@ -1,5 +1,20 @@
 # Hope 2020 Workshop Registration Checker
 
+## Success Story
+HOPE 2020 is the first online-only edition of the Hackers on Planet Earth convention.
+I wanted to make sure I woke up in time to register for their hands-on workshops.
+Registration was set to begin at 6AM Pacific on July 24th, 2020.
+So, a couple of days earlier I wrote this Python + Selenium WebDriver script to check the registration status for workshops.
+
+The script worked and notified me when registration opened. **However**, registration was broken for most users when it initially opened.
+People were reporting in the official Matrix chat that their event ticket codes, which were supposed to be their ticket to register, were not working.
+Everyone was getting an `Invalid Registration` error.
+All of a sudden, the moderators shut down registration again so they could debug their code.
+
+At this point I had signed up for zero workshops and was bummed.
+I started up my listener program again since it was now proven to work, and after the mods finished their troubleshooting an hour or two later, I was able to sign up for 6 classes!
+I **for sure** would have missed out if I hadn't automated this.
+
 ## Requirements
 - a Twilio account with credit and a phone number
 - a Unix environment (Linux, OSX)
