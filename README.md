@@ -3,6 +3,7 @@
 ## Requirements
 - a Twilio account with credit and a phone number
 - a Unix environment (Linux, OSX)
+- [Geckodriver](https://github.com/mozilla/geckodriver/releases) must be in your $PATH
 
 ## Setup
 set the following environment variables:
